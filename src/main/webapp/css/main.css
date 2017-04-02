@@ -1,0 +1,340 @@
+body{
+    border: 0px solid black;
+    width: 1000px; 
+    box-shadow: 0 0 10px 3px grey;
+    margin: auto;
+}
+/* padding-left + left-container + right-container + padding-right */
+/* 10+252+728+10 */
+
+h1,h2,h3,h4,h5{
+	color: white;
+    text-shadow: 2px 2px 10px #000000;
+    padding: 0.3em;
+    margin: 5px 0 5px 10px;
+}
+#left-container {
+    float: left;
+    width: 252px;
+    margin: 0;
+    border: 0px solid green;
+    float: left;
+    margin: 0;
+    padding: 20px 0 10px 10px;
+}
+#Right-container {
+    float: right;
+    width: 728px;
+    border: 0px solid red;
+    margin: 0;
+    padding: 20px 10px 10px 0;
+}
+#center {
+    background: #fff;
+    width:960px;
+    border: 0px solid black;
+    margin: auto;
+    padding: 0 10px 10px 10px;
+}
+header{
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 100px;
+    padding: 1em;
+    color: white;
+    background-color: #00AAA0;
+    text-align: center;
+}
+/*-------Header and Navigation--------------*/
+#header {
+    height: 150px;
+    background-image: url(../images/wooden-heart-on-green-background-header.jpg);
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    font-family: 'Shift', sans-serif;
+    border: 0px solid red;
+}
+#header h2 {    
+    font-size: 4em;
+    display: inline;
+    color: aliceblue;
+    margin-left: 20px;
+    text-decoration: underline; 
+}
+#header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline;
+    margin-left: 20px;
+    color: aquamarine;
+} 
+/*-------------------menu----------------------*/
+#menu{
+
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu li {
+    float: right;
+}
+#menu i{
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+}
+
+#menu li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color: white;
+}
+
+#menu li.dropdown {
+    display: inline-block;
+}
+
+#menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#menu .dropdown-content a {
+    color: black;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#menu .dropdown-content a:hover {background-color: red; color: white;}
+
+#menu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/*-----------------------------------------------*/
+table{
+    border-collapse: collapse;
+    border: 0px solid black;
+}
+
+table.table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* red orange Green buttons in welcome screen */
+.gridcontainer {
+    border: 1px solid black;
+    
+}
+
+.grid_3 {
+  display: inline;
+    float: right;
+  margin: 0 10px 10px; 10px; 
+  width: 220px;
+  border: 0px solid black;
+  
+}
+
+.grid_9 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+}
+
+.fmcircle_out {
+	width: 200px;
+	height: 200px;
+    text-align: center;
+	display: block;
+	margin-left: 10px;
+	opacity: 1;
+    background-color:#FF7A5A;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-o-border-radius: 100px;
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+	.fmcircle_out:hover {
+		opacity: 1;	
+		
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		-ms-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+	
+	
+.fmcircle_in {
+	width: 170px;
+	height: 170px;
+	margin: 15px;
+	display: inline-block;
+	overflow: hidden;
+	color: white;
+    
+	border-radius: 85px;
+	-moz-border-radius: 85px;
+	-webkit-border-radius: 85px;
+	-o-border-radius: 85px;
+}
+
+.fmcircle_in i {
+	border: none;
+	margin: 0px 25px 25px 25px;
+	font-size:100px;
+    
+
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.fmcircle_out:hover .fmcircle_in i {	
+		margin: 20px 80px 0 0px;
+      	font-size:50px;
+		
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		-ms-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+
+.fmcircle_in p {
+	border: none;
+    vertical-align: baseline;
+    margin: -10px 0px 0px 100px;
+   	font-size:30px;
+    position: absolute;
+
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+ .fmcircle_out:hover .fmcircle_in p {	
+		margin: 30px 0px 0 100px;
+      	font-size:50px;
+		
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		-ms-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+
+.fmcircle_in img {
+	border: none;
+	margin: 53px;
+	width: 64px;
+	height: 64px;
+		
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+  
+    .fmcircle_out:hover .fmcircle_in img {
+		margin: 30px 25px 25px 25px;
+		width: 120px;
+		height: 120px;
+		
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		-ms-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+	
+
+.fmcircle_in span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	width: 160px;
+	background: #fff;
+	color: #666666;
+	padding: 5px;
+	margin: 150px 0 0 -80px;
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	float: left;
+	position: absolute;
+	opacity: 0.50px;
+	
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+		
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+	.fmcircle_out:hover .fmcircle_in span {
+		opacity: 1;
+		
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		-ms-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+
+/*** Base64 Patterns ***/
+.fmcircle_green {
+	background: green; 
+}
+
+.fmcircle_blue {
+background: blue;
+}
